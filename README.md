@@ -1,0 +1,57 @@
+192.168.3.32:8080
+
+```
+-- components/
+	-- Agency
+		-- Agency // 销售管理
+		-- AgencyType // 销售类别管理
+	-- Category // 类目管理
+	-- Check
+		-- Journal // 流水管理
+		-- Receipt // 小票管理
+	-- Inventory
+		-- Inventory // 库存管理
+		-- Inout // 出入库记录
+		-- Warehouse // 仓库管理
+		-- component
+			-- change-position // 货架号变更
+			-- check-in // 库存盘入
+			-- check-out // 库存盘出
+			-- trans-to // 在途入仓
+	-- Login // 登录
+	-- Order
+		-- component
+			-- BatchDeliveryModal // 子订单批量发货
+			-- DeliveryModal // 子订单发货
+			-- InvoiceModal // 发货单修改modal
+			-- RecordList // 记录
+			-- ReturnOrderModal // 退单管理modal
+			-- SplitOrder // 拆分
+		-- Order // 订单管理
+		-- ErpOrder // 子订单管理
+		-- ReturnOrder // 退单管理
+		-- ShippingOrder // 发货管理
+	-- Permission
+		-- Organization // 组织管理
+		-- Resource // 资源管理
+		-- Role // 角色管理
+		-- User // 用户管理
+	-- Products
+		-- Products // 产品管理
+		-- PackageScale // 产品规格类别管理
+		-- PackageLevel // 产品规格管理
+		-- Brands // 品牌管理
+	-- Purchase
+		-- component
+			-- BarcodeStorageModal // 扫描入库
+		-- Purchase // 采购管理
+		-- PurchaseStorage // 入库管理
+	-- Report
+		-- ReportItemListing // 上新报表
+		-- ReportSaleByBrand // 销售报表（按品牌）
+		-- ReportSaleByCategory // 销售报表（按类目）
+		-- ReportSaleByDay // 销售报表（按天）
+		-- ReportShippingByDay // 每日发货报表
+	-- Sku
+		-- Sku // sku管理
+```

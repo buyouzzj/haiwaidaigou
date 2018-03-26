@@ -1,0 +1,39 @@
+.sidebar {
+  width: 160px;
+  position: fixed;
+  top: 50px;
+  bottom: 0px;
+  left: 0;
+  // overflow: auto;
+  z-index: 1;
+  background-color: #404040;
+}
+
+.sideSwitch {
+  position: absolute;
+  right: -8px;
+  top: 40%;
+  transform: translateY(-50%);
+  background: #404040;
+  height: 30px;
+  width: 8px;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+
+  i {
+    color: #eee;
+    line-height: 30px;
+    margin-left: -4px;
+    transform: scale(0.8);
+  }
+}
+
+.sidebarClose {
+  width: 0px;
+
+  ul { display: none }
+}
+
+.iconClose {
+  transform: scale(0.8) rotate(180deg) !important;
+}
